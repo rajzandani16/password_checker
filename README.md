@@ -1,136 +1,130 @@
 # 🔐 Password Strength Checker
 
-A modern, responsive **Password Strength Checker** built using **HTML, CSS, and Vanilla JavaScript**.
+A modern and responsive **Password Strength Checker** built using **HTML5, CSS3, and Vanilla JavaScript**. The application evaluates password strength in real time, provides visual feedback, generates secure passwords, and allows users to copy passwords with a single click.
 
-It analyzes passwords in real time, provides a security score, updates a requirement checklist, generates strong passwords, and allows one-click copying.
+## 🌐 Live Demo
 
----
+**Live Website:** https://password-checker-one-lac.vercel.app/
 
-## 📸 Screenshot
+## 📂 GitHub Repository
 
-> Add a screenshot of your application and save it as:
-
-```
-screenshot.png
-```
-
-Example:
-
-```
-password-strength-checker/
-│
-├── screenshot.png
-```
+**Repository:** https://github.com/rajzandani16/password_checker
 
 ---
 
 ## ✨ Features
 
-- 🔍 Live Password Strength Analysis
-- 📊 Animated Strength Progress Bar
-- 🔒 Show / Hide Password
-- ✅ Real-time Requirement Checklist
-- 📏 Password Length Counter
-- 📈 Security Score Percentage
-- 🧠 Entropy Indicator
-- ⏳ Estimated Crack Time
-- 🎲 Strong Password Generator
-- 📋 One-Click Copy Password
-- 🔔 Toast Notification
-- 📱 Fully Responsive Design
-- 🎨 Modern Glassmorphism UI
-- ⚡ Smooth Animations
+* 🔍 Real-time password strength analysis
+* 📊 Animated strength progress bar
+* 👁️ Show / Hide password
+* ✅ Live password requirement checklist
+* 🔢 Password length counter
+* 📈 Security score percentage
+* 🧠 Entropy indicator
+* ⏳ Estimated password crack time
+* 🎲 Secure password generator
+* 📋 One-click copy to clipboard
+* 🔔 Toast notification after copying
+* 📱 Fully responsive design
+* 🎨 Modern glassmorphism UI
+* ⚡ Smooth animations and transitions
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+* HTML5
+* CSS3
+* JavaScript (ES6)
 
 ---
 
-## 📂 Folder Structure
+## 🚀 Getting Started
 
+### Clone the repository
+
+```bash
+git clone https://github.com/rajzandani16/password_checker.git
 ```
-password-strength-checker/
+
+### Navigate to the project
+
+```bash
+cd password_checker
+```
+
+### Open
+
+Simply open **index.html** in your browser.
+
+No installation or dependencies are required.
+
+---
+
+## 📁 Project Structure
+
+```text
+password_checker/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 ├── README.md
-├── screenshot.png
 └── LICENSE
 ```
 
 ---
 
-## 🚀 Installation
+## 💡 How It Works
 
-Clone the repository
+The application evaluates passwords based on:
 
-```bash
-git clone https://github.com/yourusername/password-strength-checker.git
-```
+* Minimum 8 characters
+* Uppercase letters
+* Lowercase letters
+* Numbers
+* Special characters
 
-Go to the project folder
+It calculates a security score and displays one of the following strength levels:
 
-```bash
-cd password-strength-checker
-```
-
-Open
-
-```
-index.html
-```
-
-in your browser.
+* 🔴 Weak
+* 🟠 Fair
+* 🟡 Medium
+* 🟢 Strong
+* 🟢 Very Strong
 
 ---
 
-## 💻 Usage
+## 🎯 Future Improvements
 
-1. Enter a password.
-2. View its strength instantly.
-3. Check which security requirements are satisfied.
-4. Generate a secure password.
-5. Copy the password with one click.
-
----
-
-## 📈 Future Improvements
-
-- Dark / Light Theme
-- Password History
-- Password Breach API Integration
-- Password Save Feature
-- Multi-language Support
-- Offline PWA Version
-- Strength Graph
-- Custom Password Length Generator
+* 🌙 Dark / Light Mode
+* 🔐 Password history
+* 🌍 Multi-language support
+* 🔥 Password breach detection
+* 📊 Password analytics dashboard
+* ⚙️ Custom password generator options
+* 📱 Progressive Web App (PWA)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome.
+Contributions are welcome!
 
-1. Fork the repository.
-2. Create a new branch.
+1. Fork this repository.
+2. Create a feature branch:
 
 ```bash
 git checkout -b feature-name
 ```
 
-3. Commit your changes.
+3. Commit your changes:
 
 ```bash
-git commit -m "Added new feature"
+git commit -m "Add new feature"
 ```
 
-4. Push the branch.
+4. Push your branch:
 
 ```bash
 git push origin feature-name
@@ -142,9 +136,9 @@ git push origin feature-name
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
-See the LICENSE file for details.
+See the `LICENSE` file for more information.
 
 ---
 
@@ -152,18 +146,10 @@ See the LICENSE file for details.
 
 **Raj Zandani**
 
-GitHub:
-https://github.com/yourusername
-
-LinkedIn:
-https://linkedin.com/in/yourusername
+* GitHub: https://github.com/rajzandani16
 
 ---
 
 ## ⭐ Support
 
-If you like this project,
-
-⭐ Star this repository on GitHub.
-
-It really helps!
+If you found this project useful, consider giving it a **⭐ Star** on GitHub.
